@@ -4,22 +4,28 @@ h1 {
   color: #009688;
 }
 
+h3 {
+  float: top;
+  font-family: 'Poiret One';
+}
+
 a {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#header-name {
-  font-size: 50px;
-  font-family: 'Poiret One';
-}
-
-#subheading {
+#header-title {
   font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #212121;
 }
 
+#header-name {
+  font-size: 30px;
+  font-family: 'Poiret One';
+}
+
 #header-blurb {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .black-text {
