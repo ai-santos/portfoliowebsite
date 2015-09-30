@@ -1,0 +1,296 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'nodemon' ]
+2 info using npm@2.14.2
+3 info using node@v0.12.5
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ 'nodemon', null ]
+8 verbose cache add spec nodemon
+9 silly cache add parsed spec { raw: 'nodemon',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'nodemon',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed nodemon@*
+11 verbose addNamed "*" is a valid semver range for nodemon
+12 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+13 silly mapToRegistry name nodemon
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+17 verbose addNameRange registry:https://registry.npmjs.org/nodemon not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/nodemon
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 13:03:04
+21 verbose request id ef3d58cbe9eabc13
+22 verbose etag "CZJA3MWMUOG3QYFYTAVLCL4MR"
+23 http request GET https://registry.npmjs.org/nodemon
+24 http 304 https://registry.npmjs.org/nodemon
+25 silly get cb [ 304,
+25 silly get   { date: 'Sun, 27 Sep 2015 20:03:00 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     etag: '"CZJA3MWMUOG3QYFYTAVLCL4MR"',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lax1430-LAX',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1443384180.580643,VS0,VE76',
+25 silly get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/nodemon from cache
+27 verbose get saving nodemon to /Users/asantos3026/.npm/registry.npmjs.org/nodemon/.cache.json
+28 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+29 silly addNameRange versions [ 'nodemon',
+29 silly addNameRange   [ '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.1.8',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.6.7',
+29 silly addNameRange     '0.6.8',
+29 silly addNameRange     '0.6.9',
+29 silly addNameRange     '0.6.10',
+29 silly addNameRange     '0.6.11',
+29 silly addNameRange     '0.6.12',
+29 silly addNameRange     '0.6.13',
+29 silly addNameRange     '0.6.14',
+29 silly addNameRange     '0.6.15',
+29 silly addNameRange     '0.6.16',
+29 silly addNameRange     '0.6.17',
+29 silly addNameRange     '0.6.18',
+29 silly addNameRange     '0.6.19',
+29 silly addNameRange     '0.6.20',
+29 silly addNameRange     '0.6.21',
+29 silly addNameRange     '0.6.22',
+29 silly addNameRange     '0.6.23',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.7.6',
+29 silly addNameRange     '0.7.7',
+29 silly addNameRange     '0.7.8',
+29 silly addNameRange     '0.7.10',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.9.1',
+29 silly addNameRange     '0.9.2',
+29 silly addNameRange     '0.9.3',
+29 silly addNameRange     '0.9.5',
+29 silly addNameRange     '0.9.6',
+29 silly addNameRange     '0.9.7',
+29 silly addNameRange     '0.9.10',
+29 silly addNameRange     '0.9.11',
+29 silly addNameRange     '0.9.12',
+29 silly addNameRange     '0.9.14',
+29 silly addNameRange     '0.9.16',
+29 silly addNameRange     '0.9.17',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.2-rc',
+29 silly addNameRange     '0.6.10-a',
+29 silly addNameRange     '1.0.2-rc3',
+29 silly addNameRange     '1.0.2-rc4',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.0.7',
+29 silly addNameRange     '1.0.8',
+29 silly addNameRange     '1.0.9',
+29 silly addNameRange     '1.0.10',
+29 silly addNameRange     '1.0.11',
+29 silly addNameRange     '1.0.12',
+29 silly addNameRange     '1.0.13',
+29 silly addNameRange     '1.0.14',
+29 silly addNameRange     '1.0.15',
+29 silly addNameRange     '1.0.16',
+29 silly addNameRange     '1.0.17-rc1',
+29 silly addNameRange     '1.0.17-rc2',
+29 silly addNameRange     '1.0.17',
+29 silly addNameRange     '1.0.18',
+29 silly addNameRange     '1.0.19',
+29 silly addNameRange     '1.0.20',
+29 silly addNameRange     '1.1.0-alpha',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.3.0-0',
+29 silly addNameRange     '1.3.0-1',
+29 silly addNameRange     '1.3.0-2',
+29 silly addNameRange     '1.3.0-3',
+29 silly addNameRange     '1.3.0-4',
+29 silly addNameRange     '1.3.0-5',
+29 silly addNameRange     '1.3.0-6',
+29 silly addNameRange     '1.3.0-7',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '1.3.5',
+29 silly addNameRange     '1.3.6',
+29 silly addNameRange     '1.3.7',
+29 silly addNameRange     '1.3.8',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.4.1',
+29 silly addNameRange     '1.5.0-alpha1',
+29 silly addNameRange     '1.5.0-alpha2',
+29 silly addNameRange     '1.5.0-alpha3',
+29 silly addNameRange     '1.5.0-alpha4',
+29 silly addNameRange     '1.4.2',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.6.1',
+29 silly addNameRange     '1.7.0',
+29 silly addNameRange     '1.7.1' ] ]
+30 silly addNamed nodemon@1.7.1
+31 verbose addNamed "1.7.1" is a plain semver version for nodemon
+32 silly cache afterAdd nodemon@1.7.1
+33 verbose afterAdd /Users/asantos3026/.npm/nodemon/1.7.1/package/package.json not in flight; writing
+34 verbose afterAdd /Users/asantos3026/.npm/nodemon/1.7.1/package/package.json written
+35 silly install resolved [ { name: 'nodemon',
+35 silly install resolved     homepage: 'http://nodemon.io',
+35 silly install resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+35 silly install resolved     bin: { nodemon: './bin/nodemon.js' },
+35 silly install resolved     engines: { node: '>=0.8' },
+35 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/remy/nodemon.git' },
+35 silly install resolved     description: 'Simple monitor script for use during development of a node.js app.',
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'monitor',
+35 silly install resolved        'development',
+35 silly install resolved        'restart',
+35 silly install resolved        'autoload',
+35 silly install resolved        'reload',
+35 silly install resolved        'terminal' ],
+35 silly install resolved     preferGlobal: 'true',
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     main: './lib/nodemon',
+35 silly install resolved     scripts:
+35 silly install resolved      { coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+35 silly install resolved        lint: 'jscs lib/**/*.js -v',
+35 silly install resolved        ':spec': 'mocha --timeout 30000 --ui bdd test/**/*.test.js',
+35 silly install resolved        test: 'npm run lint && npm run spec',
+35 silly install resolved        spec: 'for FILE in test/**/*.test.js; do echo $FILE; ./node_modules/.bin/mocha --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+35 silly install resolved        web: 'node web',
+35 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { async: '1.4.2',
+35 silly install resolved        'coffee-script': '~1.7.1',
+35 silly install resolved        connect: '~2.19.1',
+35 silly install resolved        istanbul: '~0.2.10',
+35 silly install resolved        jscs: '2.1.1',
+35 silly install resolved        mocha: '2.3.3',
+35 silly install resolved        should: '~4.0.0',
+35 silly install resolved        'semantic-release': '4.3.5' },
+35 silly install resolved     dependencies:
+35 silly install resolved      { chokidar: '1.1.0',
+35 silly install resolved        debug: '2.2.0',
+35 silly install resolved        'es6-promise': '3.0.2',
+35 silly install resolved        'lodash.defaults': '3.1.2',
+35 silly install resolved        minimatch: '~0.3.0',
+35 silly install resolved        'ps-tree': '~0.0.3',
+35 silly install resolved        touch: '1.0.0',
+35 silly install resolved        undefsafe: '0.0.3',
+35 silly install resolved        'update-notifier': '0.5.0' },
+35 silly install resolved     version: '1.7.1',
+35 silly install resolved     gitHead: 'c606ad507d76cc4cf98f35543b5ffed74a58e371',
+35 silly install resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+35 silly install resolved     _id: 'nodemon@1.7.1',
+35 silly install resolved     _shasum: '922633a03b6835c2c29013883be4c7b4fc5f24e4',
+35 silly install resolved     _from: 'nodemon@*',
+35 silly install resolved     _npmVersion: '2.14.6',
+35 silly install resolved     _nodeVersion: '4.1.1',
+35 silly install resolved     _npmUser: { name: 'remy', email: 'remy@leftlogic.com' },
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: '922633a03b6835c2c29013883be4c7b4fc5f24e4',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz' },
+35 silly install resolved     maintainers: [ [Object] ],
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install nodemon@1.7.1 into /usr/local/lib
+37 info installOne nodemon@1.7.1
+38 verbose installOne of nodemon to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/asantos3026/.npm/_locks/nodemon-49f7ed19e778991e.lock for /usr/local/lib/node_modules/nodemon
+40 silly install write writing nodemon 1.7.1 to /usr/local/lib/node_modules/nodemon
+41 verbose unbuild lib/node_modules/nodemon
+42 info preuninstall nodemon@1.4.1
+43 info uninstall nodemon@1.4.1
+44 verbose unbuild rmStuff nodemon@1.4.1 from /usr/local/lib/node_modules
+45 silly gentlyRm /usr/local/bin/nodemon is being gently removed
+46 silly gentlyRm verifying /usr/local is an npm working directory
+47 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+48 silly gentlyRm deletion target /usr/local/bin/nodemon is under /usr/local
+49 verbose gentlyRm vacuuming from /usr/local/bin/nodemon up to /usr/local
+50 info postuninstall nodemon@1.4.1
+51 silly gentlyRm /usr/local/lib/node_modules/nodemon is being purged from base /usr/local
+52 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/nodemon
+53 silly vacuum-fs purging /usr/local/lib/node_modules/nodemon
+54 verbose unlock done using /Users/asantos3026/.npm/_locks/nodemon-49f7ed19e778991e.lock for /usr/local/lib/node_modules/nodemon
+55 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon/.jshintrc'
+55 verbose stack     at Error (native)
+56 verbose cwd /Users/asantos3026/dev/portfoliowebsite
+57 error Darwin 14.3.0
+58 error argv "node" "/usr/local/bin/npm" "install" "-g" "nodemon"
+59 error node v0.12.5
+60 error npm  v2.14.2
+61 error path /usr/local/lib/node_modules/nodemon/.jshintrc
+62 error code EACCES
+63 error errno -13
+64 error Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon/.jshintrc'
+64 error     at Error (native)
+64 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon/.jshintrc']
+64 error   errno: -13,
+64 error   code: 'EACCES',
+64 error   path: '/usr/local/lib/node_modules/nodemon/.jshintrc' }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ -13, true ]
+67 verbose unbuild lib/node_modules/nodemon
+68 info preuninstall nodemon@1.4.1
+69 info uninstall nodemon@1.4.1
+70 verbose unbuild rmStuff nodemon@1.4.1 from /usr/local/lib/node_modules
+71 silly gentlyRm /usr/local/bin/nodemon is being gently removed
+72 silly gentlyRm verifying /usr/local is an npm working directory
+73 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+74 silly gentlyRm deletion target /usr/local/bin/nodemon is under /usr/local
+75 verbose gentlyRm vacuuming from /usr/local/bin/nodemon up to /usr/local
+76 info postuninstall nodemon@1.4.1
+77 silly gentlyRm /usr/local/lib/node_modules/nodemon is being purged from base /usr/local
+78 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/nodemon
+79 silly vacuum-fs purging /usr/local/lib/node_modules/nodemon
+80 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon/.jshintrc'
+80 error error rolling back     at Error (native)
+80 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/nodemon/.jshintrc']
+80 error error rolling back   errno: -13,
+80 error error rolling back   code: 'EACCES',
+80 error error rolling back   path: '/usr/local/lib/node_modules/nodemon/.jshintrc' }
