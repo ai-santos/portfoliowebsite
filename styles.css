@@ -71,6 +71,10 @@ nav .nav-wrapper a {
   margin-left: 50px;
 }
 
+#bottom-content {
+  background-color: #B6B6B6;
+}
+
 /*#content-container {
   width: 100%;
   height: 100%;
