@@ -1,0 +1,38 @@
+<!-- Portfolio Content -->
+  <!-- Col 1 Begin -->
+      <!-- <div class="col s8"> --><!-- Card Begin --> 
+ <!--        <div class="col s12 m7">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img id="card-photo" class="activator" src="images/LOGO2CLOUDS.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4" id="card-title">Full Stack Web Developer<i class="material-icons right">About Me</i></span>
+                  </div>
+                  <div class="card-reveal">
+                    <span id="about-text" class="card-title grey-text text-darken-4">Full Stack Web Developer<br>programmer / activist / teacher<i class="material-icons right">close</i></span>
+                    <p>I am a junior web developer who is passionate about using technology to build applications that improve lives and leaves a positive impact in our world. I approach problems with curiosity, persistence, and resourcefulness.  
+                    </p>
+                    <center>
+                      <a class="btn btn-social-icon" href="https://github.com/asantos3026" target="_blank">
+                        <i class="fa fa-github-square fa-2x"></i>
+                      </a>
+                      <a class="btn btn-social-icon" href="https://www.linkedin.com/in/aileenclairesantos" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x"></i>
+                      </a>
+                      <a class="btn btn-social-icon" href="https://asantos.io/" target="_blank">
+                        <i class="fa fa-pencil-square fa-2x"></i>
+                      </a>
+                      <a class="btn btn-social-icon" href="mailto:asantos3026@gmail.com?subject=Hi, Aileen" target="_blank">
+                        <i class="fa fa-envelope fa-2x"></i>
+                      </a>
+                      <a class="btn btn-social-icon" href="assets/webdevresume.pdf" target="blank">
+                        <i class="fa fa-file-text fa-2x"></i>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div> --><!-- Card End -->
+<!-- <hr> -->

@@ -1,119 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="portfoliowebsite">
-<head>
-  <title>Aileen Santos Web Developer</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-
-
-  <!-- bootstrap css -->
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-  <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans+Condensed:300|Poiret+One' rel='stylesheet' type='text/css'>
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <!-- custom styles -->
-  <link rel="stylesheet" href="styles.css">
-
-
-  
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-
-  <!-- angular -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
-
-  <!-- ngRoute -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-
-  <!-- custom script -->
-  <script type="text/javascript" src="app.js"></script>
-  
-</head>
-<body ng-app="portfoliowebsite">
-  <div class="container" ng-include="templates/app.html"></div>
-      
-  <!-- navbar -->
-   <div class="navbar-fixed-top">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">Home</a><a href="#mywork" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">My Work</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://www.google.com/design/spec/material-design/introduction.html">My Design Aesthetic</a></li>
-          <li><a href="#mywork">My Work</a></li>
-          <li><a href="assets/webdevresume.pdf">My Resume</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- navbar end -->
-
-  <!-- Top Content Begin-->
-  <div class="row-fluid" id="topcontent">
-  <div class="col s6 m6">
-    <div class="card teal darken-1">
-      <div class="col s6">
-        <div class="card-content black-text">
-          <center>
-            <span class="card-title" id="header-title">
-               <span>Full Stack Developer</span>
-              <img src="images/WDI_pic2.png" width="10%" height="10%">
-            </span> 
-            <span class="card-title" id="header-name">
-              <strong>Aileen Santos</strong>
-            </span>
-            
-          </center>
-
-          <div class="container">   
-            <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-              <div class="row">
-                <div class="col s5">
-                  <img src="images/navbarlogo.png" class="img-responsive" width="80%" height="80%"> 
-                </div>
-                <div class="col s5">
-                  <span id="header-blurb">
-                    <h3>programmer / activist / teacher</h3><br>I am an educator turned web developer who loves sleek, modern and vibrant design focused on a clean user experience.<br><br>
-
-                    My past career has cultivated my strong soft-skills for understanding people. I am passionate about building stylish web applications for my users. My goal as a web developer is to create applications that positvely impacts my users' lives.<br><br>
-
-                    When I am not coding, I spend time organizing with the queer and immigrant Filipina community to achieve equitable rights for our underserved populations.  
-                  </span>
-                </div>
-              </div>
-                <div class="card-action">
-                  <h6>all links open in a new window</h6>
-                  <a href="https://github.com/asantos3026" target="_blank">
-                    <i class="fa fa-github-square fa-3x"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/aileenclairesantos" target="_blank">
-                    <i class="fa fa-linkedin-square fa-3x"></i>
-                  </a>
-                  <a href="mailto:asantos3026@gmail.com?subject=Hi, Aileen" target="_blank">
-                    <i class="fa fa-envelope fa-3x"></i>
-                  </a>
-                </div>
-              </div>
-            </div>    
-          </div>
-        </div> 
-      </div>
-    </div> 
-  </div>
-  <!-- Top Content End-->
-
-  <!-- Bottom Content Begin -->
-  <div class="row-fluid" id="bottom-content">
+<div class="row-fluid" id="bottom-content">
           <div class="col s12">
           <div class="card grey lighten-1">
         <div class="col s12"><h1 id="mywork">My Work</h1></a><br>
@@ -124,9 +9,9 @@
               <div class="col s5">
               <a class="justiceForUs" href="https://justice-for-us.herokuapp.com">
                 <span class="card-title"><h1>Justice For Us</h1></span>
-                <img src="images/Justice_For_Us_Screenshot.png" alt="" class="img-responsive">
+                <img src="images/Justice_For_Us_Screenshot.png" alt="" class="responsive-img">
                 <br>
-                <img src="images/projectspageJFU.png" alt="" class="img-responsive">
+                <img src="images/projectspageJFU.png" alt="" class="responsive-img">
                  <!-- notice the "circle" class -->
               </div>
               </a>
@@ -185,12 +70,9 @@
                 </span>
               </div>
             </div>
-            <div class="card-action">
-            <h6>all links open in a new window</h6>
             <a href="https://https://github.com/JasonTasharski/GitAround" target="_blank">
               <i class="fa fa-github-square fa-3x"></i>
             </a>
-            </div>
           </div><!-- Project 3 Content End-->
           <br>
           <br>
@@ -229,11 +111,3 @@
             </div>
           </div><!-- Project 5 Content End-->
         </div>
-  <!-- Bottom Content End -->
-     <br>
-     <br>
-     <br>
-    
-
-</body>
-</html>
