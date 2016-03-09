@@ -27,18 +27,18 @@ angular.module('portfoliowebsite', ['ngRoute'])
     }
   })
 
-  .directive('top-content', function(){
+  .directive('topcontent', function(){
     return {
       restrict: 'AE',
-      templateUrl: 'templates/top-content.html',
+      templateUrl: 'templates/topcontent.html',
       replace: true
     }
   })
 
-  .directive('botom-content', function(){
+  .directive('bottomcontent', function(){
     return {
       restrict: 'AE',
-      templateUrl: 'templates/botom-content.html',
+      templateUrl: 'templates/bottomcontent.html',
       replace: true
     }
   })

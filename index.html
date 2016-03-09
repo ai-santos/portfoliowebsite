@@ -43,213 +43,28 @@
 <body ng-app="portfoliowebsite">
   <div class="container" ng-include="templates/app.html"></div>
       
-  <!-- navbar -->
-   <div class="navbar-fixed-top">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">Home</a><a href="#mywork" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">My Work</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://www.google.com/design/spec/material-design/introduction.html">My Design Aesthetic</a></li>
-          <li><a href="#mywork">My Work</a></li>
-          <li><a href="assets/webdevresume.pdf">My Resume</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- navbar end -->
+<!-- navbar -->
 
-  <!-- Top Content Begin-->
-  <div class="row-fluid" id="topcontent">
-  <div class="col s6 m6">
-    <div class="card teal darken-1">
-      <div class="col s6">
-        <div class="card-content black-text">
-          <center>
-            <span class="card-title" id="header-title">
-               <span>Full Stack Developer</span>
-              <img src="images/WDI_pic2.png" width="10%" height="10%">
-            </span> 
-            <span class="card-title" id="header-name">
-              <strong>Aileen Santos</strong>
-            </span>
-            
-          </center>
+<navbar></navbar>
 
-          <div class="container">   
-            <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-              <div class="row">
-                <div class="col s5">
-                  <img src="images/navbarlogo.png" class="img-responsive" width="80%" height="80%"> 
-                </div>
-                <div class="col s5">
-                  <span id="header-blurb">
-                    <h3>programmer / activist / teacher</h3><br>I am an educator turned web developer who loves sleek, modern and vibrant design focused on a clean user experience.<br><br>
+<!-- navbar end --> -->
 
-                    My past career has cultivated my strong soft-skills for understanding people. I am passionate about building stylish web applications for my users. My goal as a web developer is to create applications that positvely impacts my users' lives.<br><br>
+<!-- Top Content Begin-->
+ 
+<topcontent></topcontent>
 
-                    When I am not coding, I spend time organizing with the queer and immigrant Filipina community to achieve equitable rights for our underserved populations.  
-                  </span>
-                </div>
-              </div>
-                <div class="card-action">
-                  <h6>all links open in a new window</h6>
-                  <a href="https://github.com/asantos3026" target="_blank">
-                    <i class="fa fa-github-square fa-3x"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/aileenclairesantos" target="_blank">
-                    <i class="fa fa-linkedin-square fa-3x"></i>
-                  </a>
-                  <a href="mailto:asantos3026@gmail.com?subject=Hi, Aileen" target="_blank">
-                    <i class="fa fa-envelope fa-3x"></i>
-                  </a>
-                </div>
-              </div>
-            </div>    
-          </div>
-        </div> 
-      </div>
-    </div> 
-  </div>
-  <!-- Top Content End-->
+<!-- Top Content End-->
 
-  <!-- Bottom Content Begin -->
-  <div class="row-fluid" id="bottom-content">
-          <div class="col s12">
-          <div class="card grey lighten-1">
-        <div class="col s12"><h1 id="mywork">My Work</h1></a><br>
+<!-- Bottom Content Begin -->
+  
+<bottomcontent></bottomcontent>
+  
+<!-- Bottom Content End -->
 
-              <!-- Project 1 Content Begin-->
-          <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-            <div class="row valign-wrapper">
-              <div class="col s5">
-              <a class="justiceForUs" href="https://justice-for-us.herokuapp.com">
-                <span class="card-title"><h1>Justice For Us</h1></span>
-                <img src="images/Justice_For_Us_Screenshot.png" alt="" class="img-responsive">
-                <br>
-                <img src="images/projectspageJFU.png" alt="" class="img-responsive">
-                 <!-- notice the "circle" class -->
-              </div>
-              </a>
-              <div class="col s10">
-                <span class="black-text">
-                  From wireframes to user narratives, to front end styling and finally to back end authentication and server requests, I created a social media app that builds authentic community by connecting users, sharing resources and revolutionazing fundraising. I used over 10 different frameworks, languages and libraries to create this project.Before I started this project, I had little to no experience using these technologies. I used over 10 different frameworks and languages to compelete this project which I learned within a span of 3 weeks. I am especially proud of the mapbox functionality. I was able to display a static map that takes in addresses and geocodes their locations to show a new marker on the page everytime a new project is added. I am also proud of the referenced model I created that allows projects to be assigned to users. This was also my first time working with authentication / authorization. The process was challenging but I managed to figure it out and was able to have a sleek modal sign-up, and login page that creates users and manages their sessions.
-                </span>
-              </div>
-            </div>
-            <div class="card-action">
-            <a href="https://github.com/asantos3026/Justice_For_Us" target="_blank">
-              <i class="fa fa-github-square fa-3x"></i>
-            </a>
-            </div>
-          </div><!-- Project 1 Content End-->
+<br>
+<br>
+<br>
 
-          <br>
-          <br>
-          <br>
-
-               <!-- Project 2 Content Begin-->
-          <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-            <div class="row valign-wrapper">
-              <div class="col s5">
-                <a class="justiceForUs" href="https://cinescape.herokuapp.com">
-                <span class="card-title"><h1>Cinescape</h1></span>
-                <img src="images/Cinescape2.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-              </div>
-            </a>
-              <div class="col s10">
-                <span class="black-text">
-                  Independently built a movie review app focused on clean user experience, beautiful design to create social connection between movie lovers of all genres
-                  Cinescape was developed on AngularJS and a Node backend. For this project, I managed all areas of development from inception to final product presentation. Particular
-                  stumbling blocks, I am proud to have overcome is parsing XML to JSON to return data from an external API and being able to integrate multiple external APIs using front and back end technologies
-                </span>
-              </div>
-            </div>
-            <div class="card-action">
-            <a href="https://github.com/asantos3026/cinescape" target="_blank">
-              <i class="fa fa-github-square fa-3x"></i>
-            </a>
-            </div>
-          </div><!-- Project 2 Content End-->
-          <br>
-          <br>
-          <br>
-
-           <!-- Project 3 Content Begin-->
-          <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-            <div class="row valign-wrapper">
-              <div class="col s20">
-                <a class="justiceForUs" href="https://gitaround.herokuapp.com">
-                <span class="card-title"><h1>Git Around</h1></span>
-                <img src="images/GitAround.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div class="col s10">
-                <span class="black-text">
-                  This web application was collaboratively by 4 developers. 
-                  This project was developed using Ruby on Rails. I was responsible for the  mailer functionality, authentication, authorization, styling, overall concept, and mapbox functionality. I am especially proud of implementing the mailer for this project. I was solely responsible for using SendGrid to incorporate an email confirmation that would be sent to users once they sign up. I was also very proud of the dynamic map icons I integrated into our static map.
-                </span>
-              </div>
-            </div>
-            <div class="card-action">
-            <h6>all links open in a new window</h6>
-            <a href="https://https://github.com/JasonTasharski/GitAround" target="_blank">
-              <i class="fa fa-github-square fa-3x"></i>
-            </a>
-            </div>
-          </div><!-- Project 3 Content End-->
-          <br>
-          <br>
-          <br>
-
-           <!-- Project 4 Content Begin-->
-          <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-            <div class="row valign-wrapper">
-              <div class="col s20">
-                <span class="card-title"><h1>Vagabond</h1></span>
-                <img src="images/Vagabond.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div class="col s10">
-                <span class="black-text">
-                  Vagabond is a collaborative project. I was responsible for managing the backend including server calls to the database. I was responsible for front end styling and mapbox functionality. I am especially proud of the seamless routing and authorization I built on the back end for this project. I did not have a lot of experience with the rails backend when I started this project. I learned a lot from being the backend manager on this project.
-                </span>
-              </div>
-            </div>
-            <div class="card-action">
-              <h6>all links open in a new window</h6>
-              <a href="https://https://github.com/JasonTasharski/Vagabond" target="_blank">
-                <i class="fa fa-github-square fa-3x"></i>
-              </a>
-            </div>
-          </div><!-- Project 4 Content End-->
-          <br>
-          <br>
-          <br>
-
-           <!-- Project 5 Content Begin-->
-          <div class="card-panel grey lighten-5 z-depth-2" id="card1">
-            <div class="row valign-wrapper">
-              <div class="col s20">
-                <span class="card-title"><h1>Music Finder App</h1></span>
-                <img src="images/spotifyapp.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div class="col s10">
-                <span class="black-text">
-                  This is an app I created during the first few weeks of the program where using vanilla javascript, underscore, and AJAX, I had to query the spotify api to return requests based on song title. This was an independent assignment which was quite challenging. This was my first time working with an API to return very specific data that I would need to render on the page using underscore templating. 
-                </span>
-              </div>
-            </div>
-            <div class="card-action">
-              <h6>all links open in a new window</h6>
-              <a href="https://github.com/asantos3026/spotify_app" target="_blank">
-                <i class="fa fa-github-square fa-3x"></i>
-              </a>
-            </div>
-          </div><!-- Project 5 Content End-->
-        </div>
-  <!-- Bottom Content End -->
-     <br>
-     <br>
-     <br>
-    
 
 </body>
 </html>
